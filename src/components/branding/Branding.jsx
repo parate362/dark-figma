@@ -1,18 +1,18 @@
 import React from 'react'
-import { Container, Row, Col, Image } from "react-bootstrap";
+import {Row, Col, Image } from "react-bootstrap";
 
 export const Branding = () => {
   return (
     <div className=' bg-black'>
     
-    <div className='container h-auto w-auto p-5'>
+    <div className='container h-auto w-auto'>
           <Row className="py-2 justify-content-center">
             <Col xs={12} md={6} className="text-center">
-              <h6>Trusted by the world’s most innovative teams</h6>
+              <h6 className='text-light-emphasis pb-4' >Trusted by the world’s most innovative teams</h6>
             </Col>
           </Row>
 
-          <Row  className="justify-content-center">
+          <Row  className="justify-content-center pb-5">
             <Col xs={6} sm={4} md={2}  className="text-center">
               <Image className="img-fluid" src="acme1.png" />
             </Col>

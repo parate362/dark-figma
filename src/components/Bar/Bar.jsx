@@ -1,5 +1,4 @@
 import React from "react"
-import './Bar.css'
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 

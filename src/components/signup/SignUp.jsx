@@ -1,10 +1,10 @@
 import React from "react";
-import "./SignUp.css";
+
 import {Row, Col, Image } from "react-bootstrap";
 const SignUp = () => {
   return (
-    <div className="signup">
-      <div className="container  w-auto h-auto p-5">
+    <div className="bg-black pt-4 pb-5">
+      <div className="container  w-auto h-487px p-5">
         <Row>
           <Col>
             <h2 style={{ color: "white" }}>Get instant access</h2>
@@ -23,7 +23,6 @@ const SignUp = () => {
                
           <input
             style={{
-              background: " #FFFFFF33",
               lineHeight: "30px",
               border: "none",
               borderRadius: "4px",
@@ -34,14 +33,14 @@ const SignUp = () => {
              
             }}
 
-            className="me-3"
+            className="m-3 bg-dark text-center"
             placeholder="   name@gmail.com"
             type="email"
           />
 
           <button
             type="button"
-            className="btn btn-light w-115 h-30 fw-Normal "
+            className="bg-light-100 w-full md:w-28 py-2 px-2 rounded ms; ml-8  "
           >
             Get access
           </button>

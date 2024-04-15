@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Grid.css"
 import { Container,Row,Col,Card } from 'react-bootstrap'
 
 const Grid = () => {

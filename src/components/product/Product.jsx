@@ -1,6 +1,5 @@
 import React from 'react'
-import "./Product.css"
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 
 const Product = () => {
   return (

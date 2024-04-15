@@ -26,14 +26,14 @@ const NavBar = () => {
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto  pe-3">
               <Nav.Link href="#" className="text-light">About</Nav.Link>
               <Nav.Link href="#" className="text-light">Features</Nav.Link>
               <Nav.Link href="#" className="text-light">Customers</Nav.Link>
               <Nav.Link href="#" className="text-light">Updates</Nav.Link>
               <Nav.Link href="#" className="text-light">Help</Nav.Link>
 
-              {/* Add more Nav.Link components as needed */}
+              { }
             </Nav>
             <Nav>
               <button type="button" className="btn btn-light w-115 h-39 fs-6 me-3">Get for free</button>

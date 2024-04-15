@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Container,Row,Col,Image } from 'react-bootstrap'
 
 const Last = () => {
@@ -8,11 +7,11 @@ const Last = () => {
 
 <Container >
       <Row>
-        <Col style={{ color: "#808080", textAlign:"start" }}>
-          <p>@ 2024 Your Company, Inc. All rights reserved</p>
+        <Col xs={12} md={6} className="text-center text-md-start mb-md-0">
+          <p className='text-light-emphasis'>@ 2024 Your Company, Inc. All rights reserved</p>
         </Col>
 
-        <Col style={{ textAlign: "end" }}>
+        <Col xs={12} md={6}  className="text-center text-md-end">
           <Image className="img-fluid m-2" src="./X.png" />
           <Image className="img-fluid m-2" src="./insta.png" />
           <Image className="img-fluid m-2" src="./pintrest.png" />
