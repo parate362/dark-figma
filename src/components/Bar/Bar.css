@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bar {
+    background: linear-gradient(
+      90deg,
+      #feecff 0%,
+      #fecaff 11.71%,
+      #feb5ff 26.8%,
+      #ffdbe7 40.18%,
+      #fff4d6 49.22%,
+      #f3fcd7 58.71%,
+      #d2f5ee 71.29%,
+      #c3efff 84.44%,
+      #fbefff 100%
+    );
+   
+  }

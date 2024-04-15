@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faq {
+   
+  
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(360deg, #000000 0%, #200d42 36.21%, #4f21a1 100%);
+
+}
+
