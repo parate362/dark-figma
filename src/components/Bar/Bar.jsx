@@ -10,7 +10,7 @@ const Bar = ()=>{
         <div className="container h-auto w-auto p-2">
         <Row className="justify-content-center">
             <Col className="text-center">
-        <p className="text-dark ">This page is included in a free SaaS Website Kit. View the complete Kit→</p>
+       <p className="text-dark "> <span className="d-none d-md-inline"> This page is included in a free SaaS Website Kit.</span>View the complete Kit→</p>
         </Col>
         </Row>
 
