@@ -56,7 +56,7 @@ const SignUp = () => {
             
             />
             <Image
-              className="img-fluid custom-image d-none d-sm-block"
+              className="img-fluid custom-image d-none d-md-block"
               src="./helix21.png"
              
             />

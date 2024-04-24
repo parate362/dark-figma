@@ -50,33 +50,31 @@ export const Hero = () => {
 
           <Row className="justify-content-center">
             <Col xs={6} md={3} className="text-center">
-              <Image
-                className="img-fluid d-none d-sm-block"
+              {/* <Image
+                className="img-fluid d-none d-md-block"
                 src="./cursor1.png"
                 style={{ width: "50%", display: "block", position: 'absolute', top: -230, left: -65 }}
-              />
+              /> */}
               <Image
-                className="img-fluid  d-none d-sm-block"
+                className="img-fluid custom2 d-none d-md-block"
                 src="./cursor2.png"
-                style={{ width: "50%", display: "block", position: 'absolute', top: -230, left: -75 }}
               />
 
             </Col>
             <Col xs={6} md={3} className="text-center">
-              <Image
-                className="img-fluid  d-none d-sm-block"
+              {/* <Image
+                className="img-fluid custom2  d-none d-md-block"
                 src="./message2.png"
-                style={{ width: "50%", display: "block", position: 'absolute', top: -295, left: 270 }}
-              />
+               
+              /> */}
               <Image
-                className="img-fluid  d-none d-sm-block"
+                className="img-fluid custom1 d-none d-md-block"
                 src="./message1.png"
-                style={{ width: "50%", display: "block", position: 'absolute', top: -290, left: 270 }}
               />
             </Col>
           </Row>
 
-          <div className="pb-5"></div>
+          <div className="pb-n5"></div>
 
           <Row className="justify-content-center">
             <Col xs={12} md={6} className="text-center">

@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
-
+ 
   return (
     <>
       <Navbar className="bg-black" expand="md" expanded={expanded} variant="dark">
