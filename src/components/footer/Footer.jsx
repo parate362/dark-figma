@@ -12,7 +12,7 @@ const Last = () => {
         </Col>
 
         <Col xs={12} md={6}  className="text-center text-md-end">
-          <Image className="img-fluid m-2" src="./X.png" />
+          <Image className="img-fluid m-2" src="./x.png" />
           <Image className="img-fluid m-2" src="./insta.png" />
           <Image className="img-fluid m-2" src="./pintrest.png" />
           <Image className="img-fluid m-2" src="./linkdin.png" />
