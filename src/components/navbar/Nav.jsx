@@ -19,7 +19,7 @@ const NavBar = () => {
               height="40"
               className="d-inline-block rounded-3 me-2"
             />{""}
-            <a className="text-light text-decoration-none fs-6 fw-normal" href="#">made by</a>
+            <a className="text-light text-decoration-none fs-6 fw-normal d-none d-sm-inline" href="#">made by</a>
             {'  '}
             <img src="framer.png" alt="" />
           </Navbar.Brand>
