@@ -26,7 +26,7 @@ const NavBar = () => {
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto  pe-3 d-none d-lg-bolck ">
+            <Nav className="ms-auto  pe-3 ">
               <Nav.Link href="#" className="text-light">About</Nav.Link>
               <Nav.Link href="#" className="text-light">Features</Nav.Link>
               <Nav.Link href="#" className="text-light">Customers</Nav.Link>
