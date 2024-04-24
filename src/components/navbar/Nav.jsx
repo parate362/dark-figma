@@ -21,7 +21,7 @@ const NavBar = () => {
             />{""}
             <a className="text-light text-decoration-none fs-6 fw-normal d-none d-sm-inline" href="#">made by</a>
             {'  '}
-            <img src="framer.png" alt="" />
+            <img className='d-none d-sm-inline' src="framer.png" alt="" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
